@@ -102,7 +102,7 @@ Your terminal prompt should become:
 
 Did you see the difference. The `(transcriptomics_analysis)` at the beginning of your prompt indicates that you are in the `transcriptomics_analysis` conda environment.
 
-Then we need to install several tools/packages via conda. Type the following commands in your terminal to install `Trinity`, `GMAP`, `STAR`, `BUSCO` respectively.
+Then we need to install several tools/packages via conda. Type the following commands in your terminal to install `Trinity`, `BUSCO`, `STAR`, `gffread` and `bowtie` respectively.
 
 ```bash
 conda install -c bioconda trinity busco star gffread bowtie
